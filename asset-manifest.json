@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Orgamick/static/css/main.f895a746.css",
+    "main.js": "/Orgamick/static/js/main.8c002f28.js",
+    "static/media/Logo.svg": "/Orgamick/static/media/Logo.9f421b0ba7c48a917aabf86138a8479e.svg",
+    "static/media/cart.svg": "/Orgamick/static/media/cart.9743f99e88a381e6adc702407b1eaee3.svg",
+    "static/media/search.svg": "/Orgamick/static/media/search.9f3ecf2f7eb08f9fd3b374e44f86997a.svg",
+    "index.html": "/Orgamick/index.html",
+    "main.f895a746.css.map": "/Orgamick/static/css/main.f895a746.css.map",
+    "main.8c002f28.js.map": "/Orgamick/static/js/main.8c002f28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f895a746.css",
+    "static/js/main.8c002f28.js"
+  ]
+}
