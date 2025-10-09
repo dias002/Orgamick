@@ -172,7 +172,7 @@ a {
     font-weight: 900;
   }
     .block1 {
-    background-image: url('img/Image1.svg');
+    background-image: url('.img/Image1.svg');
     background-repeat: no-repeat;
     background-size: contain;
     width: 500px;
@@ -184,7 +184,7 @@ a {
      color: #FFFF;
   }
     .block2{
-    background-image: url('img/Image.svg');
+    background-image: url('.img/Image.svg');
     background-repeat: no-repeat;
     background-size: contain;
     width: 500px;
@@ -200,7 +200,7 @@ a {
 }
 
 .aboutUs_block{
-  background-image: url(./img/aboutUs-back.png);
+  background-image: url('./img/aboutUs-back.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;

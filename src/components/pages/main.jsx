@@ -1,7 +1,6 @@
 import icon1 from '../../img/Group 1.svg'
 import icon2 from '../../img/Group 2.svg'
 import Image from '../../img/Image.jpg'
-import Image1 from '../../img/Image-1.jpg'
 import Image2 from '../../img/Image-2.jpg'
 import Image3 from '../../img/Image-3.jpg'
 import Image4 from '../../img/Image-4.jpg'

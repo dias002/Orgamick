@@ -14,7 +14,7 @@ function Header() {
                     Organick
                 </div>
                 <ul>
-                    <li><Link to="/main">Home</Link></li>     
+                    <li><Link to="/">Home</Link></li>     
                     <li><Link to="/about">About</Link></li> 
                     <li>Pages <span></span></li>
                     <li>Shop</li>
