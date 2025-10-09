@@ -14,7 +14,7 @@ function Header() {
                     Organick
                 </div>
                 <ul>
-                    <li><Link to="/">Home</Link></li>     
+                    <li><Link to="/main">Home</Link></li>     
                     <li><Link to="/about">About</Link></li> 
                     <li>Pages <span></span></li>
                     <li>Shop</li>
@@ -35,15 +35,6 @@ function Header() {
                     </button>
                 </div>
             </nav>
-            <div className="header-banner">
-                    <div className="bannerTitle">
-                        <h3>100% Natural Food</h3>
-                        <h1>Choose the best <br/>
-                            healthier way<br/>
-                            of life</h1>
-                        <button>Explore Now</button>
-                    </div>
-            </div>
         </header>
     )
 }
