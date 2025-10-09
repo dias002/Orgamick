@@ -3,6 +3,8 @@ import logo from '../img/Logo.svg';
 import search from '../img/search.svg';
 import cart from '../img/cart.svg';
 import '../App.css';
+import { Link } from 'react-router-dom';
+
 function Header() {
     return (
         <header>
@@ -12,14 +14,14 @@ function Header() {
                     Organick
                 </div>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
+                    <li><Link to="/">Home</Link></li>     
+                    <li><Link to="/about">About</Link></li> 
                     <li>Pages <span></span></li>
                     <li>Shop</li>
                     <li>Projects</li>
                     <li>News</li>
                 </ul>
-                    
+
                 <div className="buttons">
                     <div className="searchInput">
                         <input type="text"/>
