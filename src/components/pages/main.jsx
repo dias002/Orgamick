@@ -6,9 +6,7 @@ import Image2 from '../../img/Image-2.jpg'
 import Image3 from '../../img/Image-3.jpg'
 import Image4 from '../../img/Image-4.jpg'
 import Image5 from '../../img/Image-5.jpg'
-import Image6 from '../../img/Image-6.jpg'
-import Image7 from '../../img/Image-7.jpg'
-import Image8 from '../../img/Image-8.jpg'
+
 
 
 
@@ -83,15 +81,6 @@ function Home() {
                     </div>
                     <div className="card">
                         <img src={Image5} alt="" />
-                    </div>
-                    <div className="card">
-                        <img src={Image6} alt="" />
-                    </div>
-                    <div className="card">
-                        <img src={Image7} alt="" />
-                    </div>
-                    <div className="card">
-                        <img src={Image8} alt="" />
                     </div>
 
                 </div>
