@@ -1,15 +1,36 @@
 import icon1 from '../../img/Group 1.svg'
 import icon2 from '../../img/Group 2.svg'
-import Image from '../../img/Image.jpg'
-import Image2 from '../../img/Image-2.jpg'
-import Image3 from '../../img/Image-3.jpg'
-import Image4 from '../../img/Image-4.jpg'
-import Image5 from '../../img/Image-5.jpg'
+import Cards from '../../components/cards';
+import React, { Component } from 'react'
 
 
-
-
-function Home() {
+export class Home extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          items:[
+            {
+              id: 1,
+                title: "Product 1",
+                price: 10.00,
+                imageUrl: "/img/Image-1.jpg"
+            },
+            {
+              id: 2,
+                title: "Product 2",
+                price: 15.00,
+                imageUrl: "/img/Image-2.jpg"
+            },
+            {
+              id: 3,
+                title: "Product 3",
+                price: 20.00,
+                imageUrl: "/img/Image-3.jpg"
+            }
+          ]
+        };
+      }
+  render() {
     return (
         <div>
             <div className="header-banner">
@@ -65,29 +86,16 @@ function Home() {
             <div className="products">
                 <h3>Categories </h3>
                 <h1>Our Products</h1>
-                <div className="cards">
-                    <div className="card">
-                        <img src={Image} alt="" />
-                    </div>
-                    <div className="card">
-                        <img src={Image2} alt="" />
-                    </div>
-                    <div className="card">
-                        <img src={Image3} alt="" />
-                    </div>
-                    <div className="card">
-                        <img src={Image4} alt="" />
-                    </div>
-                    <div className="card">
-                        <img src={Image5} alt="" />
-                    </div>
+                <Cards items={this.state.items} />
 
-                </div>
                 <div className="btn">
                     <button>Learn more</button>
                 </div>
             </div>
-        </div>
-    );
+      </div>
+    )
+  }
 }
+
+
 export default Home;    
