@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/Organick/static/css/main.f895a746.css",
-    "main.js": "/Organick/static/js/main.8c002f28.js",
+    "main.css": "/Organick/static/css/main.c0dec2a1.css",
+    "main.js": "/Organick/static/js/main.fac31870.js",
+    "static/media/Image.svg": "/Organick/static/media/Image.3f0643923d3da5d96bd7.svg",
+    "static/media/Image1.svg": "/Organick/static/media/Image1.52dd145945a7b079f80b.svg",
+    "static/media/aboutUs-back.png": "/Organick/static/media/aboutUs-back.f880d8f531019d5f8e91.png",
+    "static/media/bakground-header.jpg": "/Organick/static/media/bakground-header.d5698bab453e5e2c633c.jpg",
+    "static/media/Image-5.jpg": "/Organick/static/media/Image-5.c3765888c97d0df5f4ba.jpg",
+    "static/media/Image-2.jpg": "/Organick/static/media/Image-2.1e251a84eebe2a34e0a7.jpg",
+    "static/media/Image-3.jpg": "/Organick/static/media/Image-3.16c9dc81b211a4f08ada.jpg",
+    "static/media/Image.jpg": "/Organick/static/media/Image.a5b5401a123d7d3a729d.jpg",
+    "static/media/Image-4.jpg": "/Organick/static/media/Image-4.8aebe7294e056a26120b.jpg",
+    "static/media/Group 1.svg": "/Organick/static/media/Group 1.460e73411c1ef1e775b8cf395bfd7947.svg",
+    "static/media/Group 2.svg": "/Organick/static/media/Group 2.18631348574089699be631b7bd4c4690.svg",
     "static/media/Logo.svg": "/Organick/static/media/Logo.9f421b0ba7c48a917aabf86138a8479e.svg",
     "static/media/cart.svg": "/Organick/static/media/cart.9743f99e88a381e6adc702407b1eaee3.svg",
     "static/media/search.svg": "/Organick/static/media/search.9f3ecf2f7eb08f9fd3b374e44f86997a.svg",
     "index.html": "/Organick/index.html",
-    "main.f895a746.css.map": "/Organick/static/css/main.f895a746.css.map",
-    "main.8c002f28.js.map": "/Organick/static/js/main.8c002f28.js.map"
+    "main.c0dec2a1.css.map": "/Organick/static/css/main.c0dec2a1.css.map",
+    "main.fac31870.js.map": "/Organick/static/js/main.fac31870.js.map"
   },
   "entrypoints": [
-    "static/css/main.f895a746.css",
-    "static/js/main.8c002f28.js"
+    "static/css/main.c0dec2a1.css",
+    "static/js/main.fac31870.js"
   ]
 }
